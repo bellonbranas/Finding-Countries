@@ -217,7 +217,7 @@ for country in countries:
 
 def capitalsearch(x,y):
     a = x.lower()
-    b = y
+    b = y[:]
     
     for i in range(len(b)):
         b[i] = b[i].lower()
